@@ -5,9 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class SceneManager : MonoBehaviour
 {
+   
     public void Jugar()
     {
-        UnityEngine.SceneManagement.SceneManager.LoadScene("Juego");
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Gaming");
     }
     public void Salir()
     {
@@ -17,4 +18,6 @@ public class SceneManager : MonoBehaviour
     {
         UnityEngine.SceneManagement.SceneManager.LoadScene("MainMenu");
     }
+
+  
 }
